@@ -13,5 +13,4 @@ export default {
 }
 </script>
 <style>
-@import '@/assets/styles/components/image_card.scss';
 </style>

@@ -1,8 +1,6 @@
 .card-row {
   display: flex;
-  flex: 1 1 25%;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .image-card {
@@ -11,12 +9,19 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin: 10px;
-  flex: 1 1 25%;
-  max-width: 40%;
+  min-width: 250px;
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%;
+  width: calc(33% - 20px);
+
+  @include media-down($laptop-screen) {
+    width: calc(50% - 20px);
+  }
+
+  @include media-down($medium-screen) {
+    width: 100%;
+  }
 }
 .image-card *,
 .image-card *:before {
@@ -47,7 +52,7 @@
   z-index: -1;
 }
 .image-card h3 {
-  background-color: #c73232;
+  background-color: $dark-navy;
   color: #ffffff;
   font-size: 0.9em;
   font-weight: 600;
