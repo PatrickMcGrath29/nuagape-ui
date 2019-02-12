@@ -1,1 +1,11 @@
-@import "media.scss";
+@mixin media-down($breakpoint) {
+  @media (max-width: $breakpoint - 1) { @content; }
+}
+
+@mixin media-up($breakpoint) {
+  @media (min-width: $breakpoint) { @content; }
+}
+
+@function rem($px, $base: $base-font-size) {
+    @return ($px / $base) * 1rem;
+}
