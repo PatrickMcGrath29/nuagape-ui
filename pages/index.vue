@@ -5,11 +5,13 @@
       :style="{'background-image': 'url(' + require('@/static/crossword.png') + ')'}"
     >
       <div class="container">
-        <h1>Agape
+        <h1>
+          Agape
           <br>Christian
           <br>Fellowship
         </h1>
-        <h2>Loving God.
+        <h2>
+          Loving God.
           <br>Loving Each Other.
           <br>Loving Our Campus.
         </h2>
@@ -25,11 +27,11 @@
         <div class="card-row">
           <image-card
             v-for="event in events"
-            v-bind:key="event.id"
-            v-bind:description="event.description"
-            v-bind:imageUrl="event.imageUrl"
-            v-bind:linkPath="event.linkPath"
-          ></image-card>
+            :key="event.id"
+            :description="event.description"
+            :image-url="event.imageUrl"
+            :link-path="event.linkPath"
+          />
         </div>
       </div>
       <div class="content-group">
