@@ -1,7 +1,18 @@
 .homepage__introduction {
-  padding: 80px 0;
+  background-color: $dark-navy;
+  padding: 130px 0;
+
+  blockquote {
+    background-color: rgba(256, 256, 256, .7);
+    display: initial;
+    padding: 4px 8px;
+  }
 
   h1, h2 {
-    color: $dark-navy;
+    color: white;
   }
+}
+
+.heading-subtitle {
+  font-size: $medium-font-size;
 }

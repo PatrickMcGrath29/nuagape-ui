@@ -3,10 +3,14 @@
     <div class="homepage__introduction">
       <div class="container">
         <h1>
-          Agape
-          <br>Christian
-          <br>Fellowship
+          Agape Christian Fellowship
+          <br>
+          <em class="heading-subtitle">Part of Cru Boston</em>
         </h1>
+        <blockquote> at Northeastern University </blockquote>
+        <br>
+        <br>
+        <br>
         <h2>
           Loving God.
           <br>Loving Each Other.
