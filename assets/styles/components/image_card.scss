@@ -13,7 +13,7 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: calc(33% - 20px);
+  width: calc(33.333% - 20px);
 
   @include media-down($laptop-screen) {
     width: calc(50% - 20px);

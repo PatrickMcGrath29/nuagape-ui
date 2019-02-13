@@ -1,9 +1,6 @@
 <template>
   <div class="main">
-    <div
-      class="homepage__introduction"
-      :style="{'background-image': 'url(' + require('@/static/crossword.png') + ')'}"
-    >
+    <div class="homepage__introduction">
       <div class="container">
         <h1>
           Agape
