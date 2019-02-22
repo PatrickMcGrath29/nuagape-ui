@@ -2,20 +2,11 @@
   <div class="main">
     <div class="homepage__introduction">
       <div class="container">
-        <h1>
-          Agape Christian Fellowship
+        <h1>Agape Christian Fellowship
           <br>
           <em class="heading-subtitle">Part of Cru Boston</em>
         </h1>
-        <blockquote> at Northeastern University </blockquote>
-        <br>
-        <br>
-        <br>
-        <h2>
-          Loving God.
-          <br>Loving Each Other.
-          <br>Loving Our Campus.
-        </h2>
+        <blockquote>at Northeastern University</blockquote>
       </div>
     </div>
     <section class="container">
@@ -27,16 +18,20 @@
         <h3>In the works</h3>
         <div class="card-row">
           <image-card
-            v-for="event in events"
-            :key="event.id"
-            :description="event.description"
-            :image-url="event.imageUrl"
-            :link-path="event.linkPath"
+            v-for="initiative in initiatives"
+            :key="initiative.id"
+            :description="initiative.description"
+            :image-url="initiative.imageUrl"
+            :link-path="initiative.linkPath"
           />
         </div>
       </div>
       <div class="content-group">
-        <h3>Upcoming events</h3>
+        <h3>Upcoming initiatives</h3>
+        <p
+          v-for="event in upcomingEvents"
+          :key="event.id"
+        ></p>
       </div>
     </section>
   </div>
@@ -51,7 +46,8 @@ export default {
   },
   data: function() {
     return {
-      events: [
+      upcomingEvents: [],
+      initiatives: [
         {
           id: 1,
           description: 'Bible Study',

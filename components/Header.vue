@@ -1,7 +1,7 @@
 <template>
   <header role="banner">
     <nuxt-link to="/" class="header-icon">
-      Agape Christian Fellowship
+      Agape
     </nuxt-link>
     <div
       class="navbar-collapse-toggle hamburger"
