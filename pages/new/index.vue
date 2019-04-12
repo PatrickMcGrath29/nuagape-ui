@@ -2,7 +2,7 @@
   <div class="main">
     <div class="homepage__introduction">
       <div class="container">
-        <h1>Agape Christian Fellowship
+        <h1>New - Agape Christian Fellowship
           <br>
           <em class="heading-subtitle">Part of Cru Boston</em>
         </h1>

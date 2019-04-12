@@ -30,7 +30,7 @@ header {
 
 .navbar-link {
   color: $white;
-  border-bottom-color: $dark-gray;
+  border-bottom-color: $base-border-color;
   font-weight: $semibold-font-weight;
   padding: 10px 15px;
   text-decoration: none;
@@ -44,16 +44,12 @@ header {
   }
 
   @include media-down($medium-screen) {
+    background-color: $medium-gray;
     display: block;
     padding: 20px 15px;
-    box-shadow: $base-box-shadow;
 
     &:first-child {
       margin-top: 20px;
-    }
-
-    &:not(:last-child) {
-      border-bottom: 1px solid black;
     }
   }
 }
