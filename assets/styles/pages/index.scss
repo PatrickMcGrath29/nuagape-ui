@@ -1,6 +1,5 @@
 .homepage__introduction {
   background-color: $dark-navy;
-  padding: 130px 0;
 
   blockquote {
     background-color: rgba(256, 256, 256, .7);
@@ -10,6 +9,21 @@
 
   h1, h2 {
     color: white;
+  }
+
+  .homepage__introduction-wrapper {
+    padding: 130px 0 130px 0;
+  }
+
+  .homepage__introduction-verse {
+    background-color: lighten($dark-navy, 7.5%);
+    padding: 20px;
+    text-align: center;
+
+    em {
+      color: white;
+      font-size: $medium-font-size;
+    }
   }
 }
 

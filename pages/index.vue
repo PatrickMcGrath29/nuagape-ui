@@ -2,16 +2,28 @@
   <div class="main">
     <div class="homepage__introduction">
       <div class="container">
-        <h1>Agape Christian Fellowship
-          <br>
-          <em class="heading-subtitle">Part of Cru Boston</em>
-        </h1>
-        <blockquote>at Northeastern University</blockquote>
+        <div class="homepage__introduction-wrapper">
+          <h1>
+            Agape Christian Fellowship
+            <br>
+            <em class="heading-subtitle">Part of Cru Boston</em>
+          </h1>
+          <blockquote>at Northeastern University</blockquote>
+        </div>
+      </div>
+      <div class="homepage__introduction-verse">
+        <div class="container">
+          <em>
+            This is real love - not that we loved God, but that he loved us and sent his Son as a sacrifice to take away our sins.
+            <br>
+            <small> 1 John 4:10</small>
+          </em>
+        </div>
       </div>
     </div>
     <section class="container">
       <div class="content-group">
-        <h3>What we're about</h3>
+        <h3>About</h3>
         <p>Agape Christian Fellowship is a group of students at and nearby Northeastern University that are pursuing a relationship with Jesus together. We believe that God made and loves us, and wants to have a relationship with us, and because of Jesus Christ, we can enter into that relationship.</p>
       </div>
       <div class="content-group">
