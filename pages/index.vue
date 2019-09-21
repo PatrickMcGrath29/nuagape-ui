@@ -47,9 +47,9 @@
         <h3>Study Squared</h3>
         <em class="meeting-info-text">
           Meeting Info
-          <br />Saturdays at 10:30AM at Kim's Apartment. Send Kim and email for the address! (minch.k@husky.neu.edu)
+          <br />Saturdays at 10:30AM at Kim's Apartment. Send Kim an email for the address! (minch.k@husky.neu.edu)
         </em>
-        <p></p>
+        <p>Study Squared is a great way to start off your weekend. We start with a bible study in the book of Daniel, and then around 11:30AM switch over to hanging out and doing homework together. No homework is necessary to attend!</p>
       </div>
       <div class="content-group">
         <h3>Mens Fellowship</h3>
