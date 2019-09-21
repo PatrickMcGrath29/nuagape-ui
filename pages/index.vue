@@ -70,25 +70,11 @@
           <br />We'll also be having other gatherings throughout the semester, with more information about them at our weekly large group meetings on Thursdays.
         </p>
       </div>
-      <!-- <div class="card-row">
-          <image-card
-            v-for="initiative in initiatives"
-            :key="initiative.id"
-            :description="initiative.description"
-            :image-url="initiative.imageUrl"
-            :link-path="initiative.linkPath"
-          />
-      </div>-->
-      <!-- <div class="content-group">
-        <h3>Upcoming Events</h3>
-        <p v-for="event in upcomingEvents" :key="event.id"></p>
-      </div>-->
     </section>
   </div>
 </template>
 
 <script>
-
 export default {
   data: function() {
     return {
