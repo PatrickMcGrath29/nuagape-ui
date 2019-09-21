@@ -5,8 +5,8 @@
         <div class="homepage__introduction-wrapper">
           <h1>
             Agape Christian Fellowship
-            <br>
-            <em class="heading-subtitle">Part of Cru Boston</em>
+            <br />
+            <em class="heading-subtitle">Cru Boston</em>
           </h1>
           <blockquote>at Northeastern University</blockquote>
         </div>
@@ -15,8 +15,8 @@
         <div class="container">
           <em>
             This is real love - not that we loved God, but that he loved us and sent his Son as a sacrifice to take away our sins.
-            <br>
-            <small> 1 John 4:10</small>
+            <br />
+            <small>1 John 4:10</small>
           </em>
         </div>
       </div>
@@ -26,9 +26,51 @@
         <h3>About</h3>
         <p>Agape Christian Fellowship is a group of students at and nearby Northeastern University that are pursuing a relationship with Jesus together. We believe that God made and loves us, and wants to have a relationship with us, and because of Jesus Christ, we can enter into that relationship.</p>
       </div>
+      <hr />
       <div class="content-group">
-        <h3>In the works</h3>
-        <div class="card-row">
+        <h3>Weekly Large Group Meetings</h3>
+        <em class="meeting-info-text">
+          Meeting Info
+          <br />Thursdays at 7:30PM in East Village 002
+        </em>
+        <p>Every Thursday we come together as a large group to spend time in fellowship with each other, as we enjoy Jesus together. This year we're moving towards a em group format, where we can encourage each other and explore truth together. Everyone is welcome, regardless of your spiritual background or lack thereof. If you are only able to attend a meeting once a week we usually encourage people to come to the Thursday meetings because it is a really good way to experience the Church, the body of Christ, as we come together with complimentary gifts that all point to God.</p>
+      </div>
+      <div class="content-group">
+        <h3>Bridging the Divide</h3>
+        <em class="meeting-info-text">
+          Meeting Info
+          <br />Thursdays 6-7:30PM, Location TBD
+        </em>
+        <p>Briding the Divide is a weekly partnership event with the Islamic Society of Northeastern, where students from both religions can come togehter in the pursuit of truth.</p>
+      </div>
+      <div class="content-group">
+        <h3>Study Squared</h3>
+        <em class="meeting-info-text">
+          Meeting Info
+          <br />Saturdays at 10:30AM at Kim's Apartment. Send Kim and email for the address! (minch.k@husky.neu.edu)
+        </em>
+        <p></p>
+      </div>
+      <div class="content-group">
+        <h3>Mens Fellowship</h3>
+        <em class="meeting-info-text">
+          Meeting Info
+          <br />Time and Date being determined, but email Patrick for more info (mcgrath.p@husky.neu.edu), and fill out this
+          <a
+            href="https://forms.gle/4M1Hwu5dGNsAdKBC8"
+          >availability form</a>!
+        </em>
+        <p>
+          Jesus tells us that where two or three are gathered in His name, He is there with us. We believe that this is truth, and think that it is important for us to gather to seek the Lord together. We will be meeting weekly to encourage each other, spend time in the Word, and grow closer to the Lord together and turn our eyes away from the temporary things of this world, and focus on something much greater than ourselves.
+          If you're interested in coming please fill out this
+          <a
+            href="https://forms.gle/4M1Hwu5dGNsAdKBC8"
+          >availability form.</a>
+          <br />
+          <br />We'll also be having other gatherings throughout the semester, with more information about them at our weekly large group meetings on Thursdays.
+        </p>
+      </div>
+      <!-- <div class="card-row">
           <image-card
             v-for="initiative in initiatives"
             :key="initiative.id"
@@ -36,44 +78,39 @@
             :image-url="initiative.imageUrl"
             :link-path="initiative.linkPath"
           />
-        </div>
-      </div>
-      <div class="content-group">
+      </div>-->
+      <!-- <div class="content-group">
         <h3>Upcoming Events</h3>
         <p v-for="event in upcomingEvents" :key="event.id"></p>
-      </div>
+      </div>-->
     </section>
   </div>
 </template>
 
 <script>
-import ImageCard from '@/components/ImageCard.vue'
 
 export default {
-  components: {
-    ImageCard
-  },
   data: function() {
     return {
       upcomingEvents: [],
       initiatives: [
         {
           id: 1,
-          description: 'Bible Study',
+          description: 'Study ^ 2',
           linkPath: '#',
           imageUrl:
             'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'
         },
         {
           id: 2,
-          description: 'Thursday Meetings',
+          description: 'Bridging the Divide',
           linkPath: '#',
           imageUrl:
             'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'
         },
         {
           id: 3,
-          description: 'Prayer Meetings',
+          description: 'Mens Fellowship',
           linkPath: '#',
           imageUrl:
             'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'

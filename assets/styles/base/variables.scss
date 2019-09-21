@@ -10,13 +10,15 @@ $blue: #2a4e92;
 $dark-navy: #0c394d;
 $light-gray: #f3f6f8;
 $medium-gray: #4c5454;
-$dark-gray: #1f2323;
+// $dark-gray: #1f2323;
+$dark-gray: black;
 $text-color: $dark-gray;
 
 $action-color: $light-gray;
 $action-color-hover: $medium-gray;
 $light-action-color-hover: $action-color;
 
+$small-font-size: 1rem;
 $base-font-size: 1.1rem;
 $medium-font-size: $base-font-size * 1.2;
 $large-font-size: $medium-font-size * 1.2;
@@ -28,7 +30,7 @@ $small-font-size: $base-font-size * .8;
 $base-line-height: 1.5;
 
 // Font weights
-$normal-font-weight: 400;
+$normal-font-weight: 500;
 $semibold-font-weight: 600;
 $bold-font-weight: 700;
 
@@ -79,11 +81,11 @@ $blockquote-line-height: 1.5em;
 $blockquote-margin     : $paragraph-margin * 1.5;
 
 // Links
-$link-color: $text-color;
+$link-color: $blue;
 
 // hr
 $hr-margin: 30px;
 
 // Type Misc
-$font-weight-bold: 800;
+$font-weight-bold: 700;
 $border-color: #DADADA;
