@@ -6,12 +6,13 @@
       :class="{'navbar-active': !mobileHidden}"
       @click="toggleMobileNav"
     >
-      <div class="hamburger-line"/>
-      <div class="hamburger-line"/>
-      <div class="hamburger-line"/>
+      <div class="hamburger-line" />
+      <div class="hamburger-line" />
+      <div class="hamburger-line" />
     </div>
     <nav class="navbar" :class="{'mobile-hidden': mobileHidden}">
       <nuxt-link to="/" class="navbar-link">Home</nuxt-link>
+      <nuxt-link to="D3" class="navbar-link">D3</nuxt-link>
     </nav>
   </header>
 </template>
