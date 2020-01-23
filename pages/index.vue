@@ -59,7 +59,7 @@
         </em>
         <p>Study Squared is a great way to start off your weekend. We start with a bible study in the book of Daniel, and then around 11:30AM switch over to hanging out and doing homework together. No homework is necessary to attend!</p>
       </div>
-      <div class="content-group">
+      <!-- <div class="content-group">
         <h3>Mens Fellowship</h3>
         <em class="meeting-info-text">
           Meeting Info
@@ -77,7 +77,7 @@
           <br />
           <br />We'll also be having other gatherings throughout the semester, with more information about them at our weekly large group meetings on Thursdays.
         </p>
-      </div>
+      </div> -->
     </section>
   </div>
 </template>
