@@ -25,7 +25,15 @@
       font-size: $medium-font-size;
     }
   }
+
+  .homepage__alert {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: darkred;
+  }
 }
+
 
 .heading-subtitle {
   font-size: $medium-font-size;

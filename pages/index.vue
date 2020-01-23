@@ -20,6 +20,13 @@
           </em>
         </div>
       </div>
+      <div v-if="alert" class="homepage__alert">
+        <div class="container">
+          Updated Thursday Meeting Location
+          <br />
+          {{ meeting_info }}
+        </div>
+      </div>
     </div>
     <section class="container">
       <div class="content-group">
@@ -31,7 +38,8 @@
         <h3>Weekly Large Group Meetings</h3>
         <em class="meeting-info-text">
           Meeting Info
-          <br />Thursdays at 7:30PM in East Village 002
+          <br />
+          {{ meeting_info }}
         </em>
         <p>Every Thursday we come together as a large group to spend time in fellowship with each other, as we enjoy Jesus together. This year we're moving towards a em group format, where we can encourage each other and explore truth together. Everyone is welcome, regardless of your spiritual background or lack thereof. If you are only able to attend a meeting once a week we usually encourage people to come to the Thursday meetings because it is a really good way to experience the Church, the body of Christ, as we come together with complimentary gifts that all point to God.</p>
       </div>
@@ -79,29 +87,9 @@ export default {
   data: function() {
     return {
       upcomingEvents: [],
-      initiatives: [
-        {
-          id: 1,
-          description: 'Study ^ 2',
-          linkPath: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'
-        },
-        {
-          id: 2,
-          description: 'Bridging the Divide',
-          linkPath: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'
-        },
-        {
-          id: 3,
-          description: 'Mens Fellowship',
-          linkPath: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1509559449230-59c948a61f51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80'
-        }
-      ]
+      meeting_info:
+        'Thursday Janaury 23, 2020: Social Justice Resource Center @ 106 St. Stephen Street',
+      alert: true
     }
   }
 }
