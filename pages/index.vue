@@ -59,25 +59,6 @@
         </em>
         <p>Study Squared is a great way to start off your weekend. We start with a bible study in the book of Daniel, and then around 11:30AM switch over to hanging out and doing homework together. No homework is necessary to attend!</p>
       </div>
-      <!-- <div class="content-group">
-        <h3>Mens Fellowship</h3>
-        <em class="meeting-info-text">
-          Meeting Info
-          <br />Time and Date being determined, but email Patrick for more info (mcgrath.p@husky.neu.edu), and fill out this
-          <a
-            href="https://forms.gle/4M1Hwu5dGNsAdKBC8"
-          >availability form</a>!
-        </em>
-        <p>
-          Jesus tells us that where two or three are gathered in His name, He is there with us. We believe that this is truth, and think that it is important for us to gather to seek the Lord together. We will be meeting weekly to encourage each other, spend time in the Word, and grow closer to the Lord together and turn our eyes away from the temporary things of this world, and focus on something much greater than ourselves.
-          If you're interested in coming please fill out this
-          <a
-            href="https://forms.gle/4M1Hwu5dGNsAdKBC8"
-          >availability form.</a>
-          <br />
-          <br />We'll also be having other gatherings throughout the semester, with more information about them at our weekly large group meetings on Thursdays.
-        </p>
-      </div> -->
     </section>
   </div>
 </template>
@@ -88,8 +69,8 @@ export default {
     return {
       upcomingEvents: [],
       meeting_info:
-        'Thursday Janaury 23 at 7:30PM: Social Justice Resource Center @ 106 St. Stephen Street',
-      alert: false
+        'Thursday Janaury 30 at 7:30PM: Social Justice Resource Center @ 106 St. Stephen Street',
+      alert: true
     }
   }
 }
