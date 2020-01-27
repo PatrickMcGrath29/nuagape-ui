@@ -41,15 +41,15 @@
           <br />
           {{ meeting_info }}
         </em>
-        <p>Every Thursday we come together as a large group to spend time in fellowship with each other, as we enjoy Jesus together. This year we're moving towards a em group format, where we can encourage each other and explore truth together. Everyone is welcome, regardless of your spiritual background or lack thereof. If you are only able to attend a meeting once a week we usually encourage people to come to the Thursday meetings because it is a really good way to experience the Church, the body of Christ, as we come together with complimentary gifts that all point to God.</p>
+        <p>Every Thursday we come together as a large group to spend time in fellowship with each other, as we enjoy Jesus together. Everyone is welcome regardless of your spiritual background or lack thereof. If you are only able to attend a meeting once a week we usually encourage people to come to the Thursday meetings because it is a really good way to experience the Church, the body of Christ, as we come together with complimentary gifts that all point to God.</p>
       </div>
       <div class="content-group">
         <h3>Bridging the Divide</h3>
         <em class="meeting-info-text">
           Meeting Info
-          <br />Thursdays 6-7:30PM, Location TBD
+          <br />Thursdays 6-7:30PM, Location TBD. Contact Heather at novak.h@husky.neu.edu for more information!
         </em>
-        <p>Briding the Divide is a weekly partnership event with the Islamic Society of Northeastern, where students from both religions can come togehter in the pursuit of truth.</p>
+        <p>Briding the Divide is a partnership event with the Islamic Society of Northeastern, where students from both religions can come together in the pursuit of truth.</p>
       </div>
       <div class="content-group">
         <h3>Study Squared</h3>
