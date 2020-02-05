@@ -69,7 +69,7 @@ export default {
     return {
       upcomingEvents: [],
       meeting_info:
-        'Thursday Janaury 30 at 7:30PM: Social Justice Resource Center @ 106 St. Stephen Street',
+        'Thursday February 6 at 7:30PM: Social Justice Resource Center @ 106 St. Stephen Street',
       alert: true
     }
   }
