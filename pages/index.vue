@@ -26,6 +26,11 @@
           <br />
           <br />
           {{ meeting_info }}
+          <br />
+          <a
+            class="plain-link"
+            href="https://hangouts.google.com/call/_cGMXHgdSWRnF2FSpp0fAEEE"
+          >Online Fellowship Gathering Link</a>
         </div>
       </div>
     </div>
@@ -41,12 +46,15 @@
           Meeting Info
           <br />
           {{ meeting_info }}
+          <br />
+          <a
+            href="https://hangouts.google.com/call/_cGMXHgdSWRnF2FSpp0fAEEE"
+          >Online Fellowship Gathering Link</a>
         </em>
         <p>
           Northeastern University has advised that student organizations no longer meet in person to reduce the chances of the Coronavirus (COVID-19) spreading between people. In response to that we will be having fellowship online (audio or video conference) this week. We're going to be taking things week by week, so check back each week for more information, and to confirm that we are still meeting.
           <br />
-          <br />
-          Do not feel obliged to join, but it will be a time for those who are interested to gather together online and have fellowship with each other.
+          <br />Do not feel obliged to join, but it will be a time for those who are interested to gather together online and have fellowship with each other.
         </p>
       </div>
       <div class="content-group">
@@ -54,13 +62,11 @@
         <em class="meeting-info-text">
           Content
           <br />
-          <a href="/introduction.pdf"> PDF With Introduction and Schedule </a>
+          <a href="/introduction.pdf">PDF With Introduction and Schedule</a>
         </em>
-        <p>
-          For the four weeks leading up to Good Friday we will be taking a special look at what it means to Abide in Christ. Each week there will be a special focus with specific passages in the Bible that you can read throughout the week. Each day of the week there will be a focus, and throughout the week we'll be sharing content on social media (Instagram and Facebook) for you to engage with.
-        </p>
+        <p>For the four weeks leading up to Good Friday we will be taking a special look at what it means to Abide in Christ. Each week there will be a special focus with specific passages in the Bible that you can read throughout the week. Each day of the week there will be a focus, and throughout the week we'll be sharing content on social media (Instagram and Facebook) for you to engage with.</p>
         <div class="abide-introduction-wrapper">
-          <img class="abide-introduction-image" src="/introduction.png">
+          <img class="abide-introduction-image" src="/introduction.png" />
         </div>
       </div>
     </section>
@@ -72,8 +78,7 @@ export default {
   data: function() {
     return {
       upcomingEvents: [],
-      meeting_info:
-        'Thursdays at 7:30PM, Online Audio or Video Conference. Link posted here and on social media at 7:15pm on Thursday.',
+      meeting_info: 'Thursdays at 7:30PM, Online Audio or Video Conference.',
       alert: true
     }
   }
