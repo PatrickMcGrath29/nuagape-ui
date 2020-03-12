@@ -57,7 +57,7 @@
           <a href="/introduction.pdf"> PDF With Introduction and Schedule </a>
         </em>
         <p>
-          For the four weeks leading up to Good Friday we will be taking a special look at what it means to Abide in Christ. Each week there will be a special focus with specific passages in the Bible that you can read throughout the week. Each day of the week there will be something for you to engage with, whether its a devotional posted on our social media
+          For the four weeks leading up to Good Friday we will be taking a special look at what it means to Abide in Christ. Each week there will be a special focus with specific passages in the Bible that you can read throughout the week. Each day of the week there will be a focus, and throughout the week we'll be sharing content on social media (Instagram and Facebook) for you to engage with.
         </p>
         <div class="abide-introduction-wrapper">
           <img class="abide-introduction-image" src="/introduction.png">
