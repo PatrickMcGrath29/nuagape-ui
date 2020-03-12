@@ -22,7 +22,8 @@
       </div>
       <div v-if="alert" class="homepage__alert">
         <div class="container">
-          Updated Thursday Meeting Location
+          Updated Thursday Meeting Information
+          <br />
           <br />
           {{ meeting_info }}
         </div>
@@ -35,29 +36,32 @@
       </div>
       <hr />
       <div class="content-group">
-        <h3>Weekly Large Group Meetings</h3>
+        <h3>Online Fellowship</h3>
         <em class="meeting-info-text">
           Meeting Info
           <br />
           {{ meeting_info }}
         </em>
-        <p>Every Thursday we come together as a large group to spend time in fellowship with each other, as we enjoy Jesus together. Everyone is welcome regardless of your spiritual background or lack thereof. If you are only able to attend a meeting once a week we usually encourage people to come to the Thursday meetings because it is a really good way to experience the Church, the body of Christ, as we come together with complimentary gifts that all point to God.</p>
+        <p>
+          Northeastern University has advised that student organizations no longer meet in person to reduce the chances of the Coronavirus (COVID-19) spreading between people. In response to that we will be having fellowship online (audio or video conference) this week. We're going to be taking things week by week, so check back each week for more information, and to confirm that we are still meeting.
+          <br />
+          <br />
+          Do not feel obliged to join, but it will be a time for those who are interested to gather together online and have fellowship with each other.
+        </p>
       </div>
       <div class="content-group">
-        <h3>Bridging the Divide</h3>
+        <h3>Abide in Christ - A Month Long Focus</h3>
         <em class="meeting-info-text">
-          Meeting Info
-          <br />Thursdays 6-7:30PM, Location TBD. Contact Heather at novak.h@husky.neu.edu for more information!
+          Content
+          <br />
+          <a href="/introduction.pdf"> PDF With Introduction and Schedule </a>
         </em>
-        <p>Briding the Divide is a partnership event with the Islamic Society of Northeastern, where students from both religions can come together in the pursuit of truth.</p>
-      </div>
-      <div class="content-group">
-        <h3>Study Squared</h3>
-        <em class="meeting-info-text">
-          Meeting Info
-          <br />Saturdays at 10:30AM at Kim's Apartment. Send Kim an email for the address! (minch.k@husky.neu.edu)
-        </em>
-        <p>Study Squared is a great way to start off your weekend. We start with a bible study in the book of Daniel, and then around 11:30AM switch over to hanging out and doing homework together. No homework is necessary to attend!</p>
+        <p>
+          For the four weeks leading up to Good Friday we will be taking a special look at what it means to Abide in Christ. Each week there will be a special focus with specific passages in the Bible that you can read throughout the week. Each day of the week there will be something for you to engage with, whether its a devotional posted on our social media
+        </p>
+        <div class="abide-introduction-wrapper">
+          <img class="abide-introduction-image" src="/introduction.png">
+        </div>
       </div>
     </section>
   </div>
@@ -69,7 +73,7 @@ export default {
     return {
       upcomingEvents: [],
       meeting_info:
-        'Thursdayss at 7:30PM in the Social Justice Resource Center @ 106 St. Stephen Street',
+        'Thursdays at 7:30PM, Online Audio or Video Conference. Link posted here and on social media at 7:15pm on Thursday.',
       alert: true
     }
   }
